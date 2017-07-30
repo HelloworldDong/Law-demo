@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>js问卷调查投票页面表单代码 - A5源码</title>
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<script src="vote.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!--问卷调查功能-->
+<div>
+	<div id="header" >
+		<a class="header_logo" href="">投票功能</a>
+	</div>
+</div>
+<div class="content">
+
+	<!--问卷调查内容-->
+	<div class="vote" >
+		<div class="votechoice">
+			<ul class="vote1">
+				<p>1.您是通过什么渠道了解到本网站：</p>
+				<li><input type="checkbox" value="互联网" /><span class="votechoicename">互联网</span></li>
+				<li><input type="checkbox" value="电视广播" /><span class="votechoicename">电视广播</span></li>
+				<li><input type="checkbox" value="朋友圈" /><span class="votechoicename">朋友圈</span></li>
+				<li><input type="checkbox" value="报刊杂志" /><span class="votechoicename">报刊杂志</span></li>
+				<li><button type="button" class="button blue" onClick="submitvote(this)">投票</button></li>
+			</ul>
+		</div>
+		<div class="votechoice">
+			<ul class="vote2">
+				<p>2.您认为本网站哪些方面需要调整改进：</p>
+				<li><input type="checkbox" value="页面设计"><span class="votechoicename">页面设计</span></li>
+				<li><input type="checkbox" value="房产新闻" /><span class="votechoicename">房产新闻</span></li>
+				<li><input type="checkbox" value="重大事项公示" /><span class="votechoicename">重大事项公示</span></li>
+				<li><input type="checkbox" value="党务之窗" /><span class="votechoicename">党务之窗</span></li>
+				<li><input type="checkbox" value="政策法规" /><span class="votechoicename">政策法规</span></li>
+				<li><input type="checkbox" value="房产文化" /><span class="votechoicename">房产文化</span></li>
+				<li><button type="button" class="button blue" onClick="submitvote(this)">投票</button></li>
+			</ul>
+		</div>
+		<div class="votechoice">
+			<ul class="vote3">
+				<p>3.您对我们的服务态度是否满意：</p>
+				<li><input type="radio" name="taidu" value="非常满意" /><span class="votechoicename">非常满意</span></li>
+				<li><input type="radio" name="taidu" value="满意" /><span class="votechoicename">满意</span></li>
+				<li><input type="radio" name="taidu" value="不满意" /><span class="votechoicename">不满意</span></li>
+				<li><button type="button" class="button blue" onClick="submitvote(this)">投票</button></li>
+			</ul>
+		</div>
+		<div class="votechoice">
+			<ul class="vote4">
+				<p>4.您对我们的业务办理流程是否满意：</p>
+				<li><input type="radio" name="liucheng" value="非常满意" /><span class="votechoicename">非常满意</span></li>
+				<li><input type="radio" name="liucheng" value="满意" /><span class="votechoicename">满意</span></li>
+				<li><input type="radio" name="liucheng" value="不满意" /><span class="votechoicename">不满意</span></li>
+				<li><button type="button" class="button blue" onClick="submitvote(this)">投票</button></li>
+			</ul>
+		</div>
+		<div class="votechoice">
+			<ul class="vote5">
+				<p>5.您对我们工作人员业务能力是否满意：</p>
+				<li><input type="radio" name="nengli" value="非常满意" /><span class="votechoicename">非常满意</span></li>
+				<li><input type="radio" name="nengli" value="满意" /><span class="votechoicename">满意</span></li>
+				<li><input type="radio" name="nengli" value="不满意" /><span class="votechoicename">不满意</span></li>
+				<li><button type="button" class="button blue" onClick="submitvote(this)">投票</button></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';clear:both;">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+<p>来源：<a href="http://down.admin5.com/" target="_blank">A5源码</a></p>
+</div>
+</body>
+</html>
